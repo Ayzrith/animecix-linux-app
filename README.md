@@ -46,6 +46,14 @@ chmod +x AnimeciX-x86_64.AppImage
 Masaüstü menüsüne eklemek için uygulama içinden
 **Ayarlar → Masaüstü Başlatıcısını Sistemime Kur** seçeneğini kullanabilirsiniz.
 
+### Gereken bağımlılıklar
+
+Uygulama açılmadan önce sisteminize uygun komutla bağımlılıkları kurun:
+
+- **Debian/Ubuntu:** `sudo apt install libgtk-4-dev libadwaita-1-dev mpv pkg-config`
+- **Fedora:** `sudo dnf install gtk4-devel libadwaita-devel mpv pkgconf-pkg-config`
+- **Arch:** `sudo pacman -S gtk4 libadwaita mpv pkgconf`
+
 ---
 
 ## Güncelleme
