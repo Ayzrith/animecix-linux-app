@@ -9,8 +9,8 @@ favoriler_kapak_gecmisi.md
 !docs/**/*.png
 !assets/**/*.png
 
-# === Build artefaktları (GitHub'a gönderilmez) ===
-*.AppImage
+# === Build artefaktları ===
+# Uygulama AppImage'i repoya ekleniyor; build araçları/kalıcı dizinler hariç:
 AnimeciX.AppDir/
 appimagetool-x86_64.AppImage
 assets/hicolor/index.theme
