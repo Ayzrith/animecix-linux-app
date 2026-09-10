@@ -46,29 +46,6 @@ chmod +x AnimeciX-x86_64.AppImage
 Masaüstü menüsüne eklemek için uygulama içinden
 **Ayarlar → Masaüstü Başlatıcısını Sistemime Kur** seçeneğini kullanabilirsiniz.
 
-### Kaynaktan derleme
-
-Gerekenler:
-
-- **Debian/Ubuntu:** `sudo apt install libgtk-4-dev libadwaita-1-dev mpv pkg-config`
-- **Fedora:** `sudo dnf install gtk4-devel libadwaita-devel mpv pkgconf-pkg-config`
-- **Arch:** `sudo pacman -S gtk4 libadwaita mpv pkgconf`
-- Rust 1.74+
-
-```bash
-git clone https://github.com/Ayzrith/animecix-linux-app.git
-cd animecix-linux-app
-cargo build --release
-./target/release/animecix
-```
-
-> Not: bu sistemde derleme için önce şunlar gerekir:
->
-> ```bash
-> export LIBCLANG_PATH=/usr/lib/llvm-21/lib
-> export BINDGEN_EXTRA_CLANG_ARGS="--target=x86_64-unknown-linux-gnu -I/usr/lib/gcc/x86_64-linux-gnu/15/include -I/usr/include/x86_64-linux-gnu -I/usr/include"
-> ```
-
 ### AppImage paketleme
 
 ```bash
