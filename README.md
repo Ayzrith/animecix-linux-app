@@ -46,15 +46,6 @@ chmod +x AnimeciX-x86_64.AppImage
 Masaüstü menüsüne eklemek için uygulama içinden
 **Ayarlar → Masaüstü Başlatıcısını Sistemime Kur** seçeneğini kullanabilirsiniz.
 
-### AppImage paketleme
-
-```bash
-bash build_appimage.sh
-```
-
-Betik sürümü otomatik artırır ve `AnimeciX-x86_64.AppImage` üretir.
-`GITHUB_TOKEN` tanımlıysa GitHub Release olarak da yayınlar.
-
 ---
 
 ## Güncelleme
